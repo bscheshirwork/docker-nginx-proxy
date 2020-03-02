@@ -7,3 +7,11 @@ Steps to use
 3. Add corresponded `server`block with path to  into common `nginx` config  
 4. Add `docker network` for connect this nginx-proxy composition and application composition  
 5. Add `docker-compose down && docker-compose up -d` command into cron with `@reboot` alias instead of time
+
+
+step 2:
+```
+cd example.com-init
+chmod +x init-letsencrypt.sh
+sudo ./init-letsencrypt.sh.
+```
